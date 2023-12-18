@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+
+.icon{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.fa-solid{
+  color: greenyellow;
+}
+
+.fa-mug-hot:hover{
+    color: darkmagenta;
+}

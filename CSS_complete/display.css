@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* inline like span any height and width property won't affect It will take content size space but inline block will take height and width*/
+span{
+  /* display: inline; */
+  /* display: inline-block; */
+  display: block;
+  background-color: teal;
+  width: 200px;
+  height: 300px;
+  /* display: flex;
+  align-items: center; */
+}
+
+/* block element will take complete width and height and width AS user specified can be applicable */
+div{
+  background-color: red;
+  height: 30%;
+  /* overflow: hidden; */
+  /* display: inline; */
+  color: white;
+}

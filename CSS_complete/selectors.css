@@ -1,5 +1,3 @@
-/*  we'll use gradient and filter.(WE CAN FIND on GRABIENT.COM, WEBGRADIENT.COM)*/
-
 *{
   margin: 0;
   padding: 0;
@@ -22,5 +20,23 @@ html,body{
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-size: 4rem;
+  font-size: 2rem;
+}
+
+.link:link{
+  /* pseudo selector unvisited link */
+  color: red;
+}
+
+.visited:visited{
+  /* color those which we've visited */
+  color: #FC00FF;
+}
+
+.hover:hover{
+  color: crimson;
+}
+
+.active:active{
+  color: chartreuse;
 }
