@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+}
+
+h1{
+  text-shadow: 2px 2px 2px red;
+  font-size: 3rem;
+  margin: 100px 40px;
+}
+
+div{
+  background-color: rgba(0, 0, 255, 0.551);
+  height: 200px;
+  width: 200px;
+  margin: 60px;
+  /* box-shadow: x, y, shadow, color */
+  box-shadow: 5px 7px 2px orange;
+}

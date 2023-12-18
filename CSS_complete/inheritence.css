@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* when we declare smtg on an element, and it also applies thar element's decendent only typography is inherited  */
+
+/* this will be inherited */
+/* .parent{
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+  color: orangered;
+} */
+
+/* layout will not be inherited */
+.parent{
+  color: orangered;
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: italic;
+  height: 400px;
+  width: 200px;
+  background-color: teal;
+  /* position: relative; */
+}
+
+.children{
+  /* background: inherit;
+  width: inherit;
+  height: inherit; */
+  position: absolute;
+  left: 40%;
+}
