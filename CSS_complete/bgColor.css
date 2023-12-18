@@ -1,0 +1,25 @@
+/*  we'll use gradient and filter.(WE CAN FIND on GRABIENT.COM, WEBGRADIENT.COM)*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bgImage{
+  height: 100%;
+  width: 100%;
+  background-color: #00DBDE;
+
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
