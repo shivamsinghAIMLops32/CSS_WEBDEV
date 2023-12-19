@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Poppins', sans-serif;
+  /* background-color: black; */
+}
+
+.nav{
+  height: 80px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.91); 
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  position: relative;
+}
+
+.left-nav{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+h2{
+  color: red;
+  text-shadow: 2px 2px 2px black;
+  padding: 10px;
+  margin: 0px 50px 0px 50px;
+}
+h2:hover{
+  color: blueviolet;
+}
+
+.fa-twitch{
+  color: red;
+}
+
+.fa-ellipsis-vertical{
+  color: white;
+}
+
+.mid-nav{
+  position: absolute;
+  left: 40%;
+}
+
+.input-box{
+  border: 2px white solid;
+  border-radius: 2%;
+  height: 26px;
+  width: 190px;
+  text-transform: capitalize;
+  margin-right: 26px;
+  padding-right: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.51);
+}
+.input-box:hover{
+  box-shadow: 1px 1px 1px white;
+  width: 193px;
+  height: 28px;
+}
+.fa-magnifying-glass{
+  color: white;
+  height: 30px;
+}
+
+.right-nav{
+  position: absolute;
+  left: 80%;
+  padding: 10px;
+  margin: 10px 10px;
+}
+
+.sign-btn{
+  height: 40px;
+  width: 70px;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  text-wrap: nowrap;
+  background-color: blueviolet;
+  /* border: 2px solid blueviolet; */
+  padding: 3px;
+  border: none;
+  /* border-radius: 2px; */
+  text-transform: capitalize;
+  color: white;
+  margin-right: 20px;
+}
+.sign-btn:hover{
+  background-color: rgb(94, 18, 165);
+}
+
+
+.log-btn{
+  height: 40px;
+  width: 70px;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  text-wrap: nowrap;
+  background-color: rgb(39, 37, 37);
+  border: none;
+  padding: 3px;
+  border-radius: 2px;
+  text-transform: capitalize;
+  color: white;
+}
+.log-btn:hover{
+  background-color: rgba(0, 0, 0, 0.57);
+}
+
+.fa-user{
+  color: white;
+  margin: 20px 10px;
+}
