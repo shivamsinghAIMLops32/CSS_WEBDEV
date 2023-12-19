@@ -1,3 +1,4 @@
+/* we use position absolute to overlap cause it will leave it's space.The element is positioned relative to its closest positioned ancestor (if any) or to the initial containing block.  */
 *{
   margin: 0;
   padding: 0;
@@ -14,6 +15,7 @@ html,body{
   background: gray;
   height: 500px;
   width: 90%;
+  position: relative;
 }
 
 .d{
@@ -23,10 +25,19 @@ html,body{
 
 .one{
   background-color: rgba(0, 128, 128, 0.638);
+  /* position: sticky;
+  top: 20px;   it will stick the thing to 20px from its original position to current window */
 }
 
 .two{
   background-color: rgba(0, 0, 255, 0.447);
+  /* position: fixed;
+  top: 30px;  it will be fix at this position*/
+  /* position: relative;
+  top: 50%;
+  left: 50%; */
+  position: absolute;
+  left: 100px;
 }
 
 .three{
